@@ -12,6 +12,8 @@ def check():
 while True:
     if pyautogui.locateOnScreen('0.png') is not None:
         check()
+        c += 1
+        print(c)
     elif pyautogui.locateOnScreen('1.png') is not None:
         location = pyautogui.locateCenterOnScreen('1.0.png')
         pyautogui.click(x, location.y)
@@ -78,5 +80,4 @@ while True:
         check()
         check()
     else:
-        c += 1
-        print(c)
+        pyautogui.click(2591, 407)
