@@ -11,7 +11,6 @@
 **Installation:** To set up and configure the project on your local machine, follow these steps:
 
 1. Clone or download the project repository from GitHub.
-
 2. Download prerequisite packages
 
 **Usage:** To use the project, follow these steps:
