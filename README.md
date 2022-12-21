@@ -8,14 +8,13 @@
 * Pyautogui library
 * A DataCamp premium account
 
-Installation: To set up and configure the project on your local machine, follow these steps:
+**Installation:** To set up and configure the project on your local machine, follow these steps:
 
-Clone or download the project repository from GitHub.
+1. Clone or download the project repository from GitHub.
+
+2. Download prerequisite packages
 
 **Usage:** To use the project, follow these steps:
-
-Open DataCamp's Introduction to SQL practice exam in your web browser.
-
-Run the script by typing python main.py in the terminal.
-
-The script will automatically locate and answer each question in the exam.
+1. Open DataCamp's Introduction to SQL practice exam in your web browser.
+2. Run the script by typing python main.py in the terminal.
+3. The script will automatically locate and answer each question in the exam.
