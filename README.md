@@ -17,3 +17,6 @@
 1. Open DataCamp's Introduction to SQL practice exam in your web browser.
 2. Run the script by typing python main.py in the terminal.
 3. The script will automatically locate and answer each question in the exam.
+
+**Reminders:**
+Kindly adjust check() function in pyautogui.click(x, y) coordinates base on the location of your screen.
