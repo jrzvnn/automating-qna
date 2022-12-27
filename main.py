@@ -1,23 +1,28 @@
-# Automating stuff
 import pyautogui
 
+# Coordinate for clicking the checkboxes
 x = 1887
 c = 0
 
 
+# Function for clicking the checkbox
 def check():
     pyautogui.click(x=2767, y=1028)
 
 
+# Main loop
 while True:
-    if pyautogui.locateOnScreen('0.png') is not None:
-        check()
-        c += 1
-        print(c)
+    if pyautogui.locateOnScreen('0.png') is not None:   # Check if '0.png' is on the screen
+        check()  # Click the checkbox
+        c += 1   # Increment the counter
+        print(c)    # Print the counter
     elif pyautogui.locateOnScreen('1.png') is not None:
+        # Check if '1.png' is on the screen
         location = pyautogui.locateCenterOnScreen('1.0.png')
+        # Find the center of '1.0.png' on the screen
         pyautogui.click(x, location.y)
-        check()
+        # Click the choice at the found location
+        check()  # Click the checkbox
         check()
     elif pyautogui.locateOnScreen('2.png') is not None:
         location = pyautogui.locateCenterOnScreen('2.0.png')
@@ -81,3 +86,4 @@ while True:
         check()
     else:
         pyautogui.click(2591, 407)
+        print('failed')
